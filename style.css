@@ -165,7 +165,7 @@ input, select, fieldset, textarea {
 input, select, fieldset, textarea, label, legend, input::placeholder, select::placeholder, textarea::placeholder {
   color: #95a1bb;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 22.4px;
   font-family: inherit;
 }
@@ -175,6 +175,7 @@ input[type="text"] {
 input[type="email"], input[type="password"], input[type="date"], select {
   width: 230px;
   height: 50px;
+  flex-grow: 50px;
 }
 fieldset {
   width: 100%;
@@ -195,7 +196,7 @@ appearance: none;
 input[type="date"]::-webkit-calendar-picker-indicator {
   background: url(./assets/images/Calendar.svg) no-repeat;
 }
-.footer {
+footer {
   background-color: #0A61F7;
   text-align: center;
   padding:20px 0;
@@ -244,4 +245,31 @@ display: flex;
 .account-wrapper {
   display: flex;
   justify-content: space-between;
+}
+form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stack,fieldset {
+  display: flex;
+  column-gap: 30px;
+
+}
+fieldset {
+  width: 100%;
+  padding: 30px 15px;
+
+}
+textarea {
+  width: 100%;
+  min-height: 10%;
+  resize: none;
+}
+.fields-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }

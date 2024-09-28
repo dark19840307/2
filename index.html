@@ -101,51 +101,56 @@
         <div class="account-info-wrapper">
           <form action="mailto ">
             <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="password">
-            <input type="date">
-          </form>
+            <div class="fields-wrapper">
+              <input type="email" placeholder="Email">
+              <input type="password" placeholder="password">
+              <input type="date">
 
-          <select>
-            <option selected disabled>
-              Country</option>
-            <option>Belarus</option>
-            <option>China</option>
-            <option>USA</option>
-          </select>
-          <div>
-            <label for="front">
-              <input id="front" type="radio" name="stack">
-              Frontend
-            </label>
-            <label for="back">
-              <input id="back" type="radio" name="stack" checked>
-              Backend
-            </label>
-          </div>
-          <fieldset>
-            <legend>Favorite Technologies</legend>
-            <label for="html">
-              <input id="html" type="checkbox" name="html">checked
-              HTML
-            </label>
-            <label for="css">
-              <input id="css" type="checkbox" name="css">checked
-              CSS
-            </label>
-            <label for="react">
-              <input id="react" type="checkbox" name="react">
-              React
-            </label>
-            <label for="sc">
-              <input id="sc" type="checkbox" name="sc">
-              Styled components
-            </label>
-          </fieldset>
-          <textarea placeholder="something else about You..."></textarea>
-          <input type="submit">
+
+              <select>
+                <option selected disabled>
+                  Country</option>
+                <option>Belarus</option>
+                <option>China</option>
+                <option>USA</option>
+              </select>
+            </div>
+            <div>
+              <label for="front">
+                <input id="front" type="radio" name="stack">
+                Frontend
+              </label>
+              <label for="back">
+                <input id="back" type="radio" name="stack" checked>
+                Backend
+              </label>
+            </div>
+            <fieldset>
+              <legend>Favorite Technologies</legend>
+              <label for="html">
+                <input id="html" type="checkbox" name="html">checked
+                HTML
+              </label>
+              <label for="css">
+                <input id="css" type="checkbox" name="css">checked
+                CSS
+              </label>
+              <label for="react">
+                <input id="react" type="checkbox" name="react">
+                React
+              </label>
+              <label for="sc">
+                <input id="sc" type="checkbox" name="sc">
+                Styled components
+              </label>
+            </fieldset>
+            <textarea placeholder="something else about You..."></textarea>
+
+            <input class="table-button" type="submit">
         </div>
+        </form>
       </div>
+    </div>
     </div>
 
   </section>
