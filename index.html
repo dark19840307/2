@@ -13,115 +13,141 @@
 
 <body>
   <header class="header">
-    <a href="" class="logo">
-      <img class="logo-img" src="./assets/images/logo.svg" alt="image">
-    </a>
-    <ul class="menu">
-      <li class="menu-item">
-        <a href="" class="menu-link">Main</a>
-      </li>
-      <li class="menu-item"><a href="" class="menu-link">Rates</a>
-      </li>
-      <li class="menu-item">
-        <a href="" class="menu-link">Create Account</a>
-      </li>
-    </ul>
+    <div class="container">
+      <div class="header-wrapper"> <a href="" class="logo">
+          <img class="logo-img" src="./assets/images/logo.svg" alt="image">
+        </a>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="" class="menu-link">Main</a>
+          </li>
+          <li class="menu-item"><a href="" class="menu-link">Rates</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">Create Account</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
   </header>
 
   <section class="main">
-    <h1 class="main-title">Markup achievement</h1>
-    <p class="text">The harder you work for something,the greater you feel when you achive it.</p>
-    <button class="button">Learn More</button>
-    <img class="main-img" src="./assets/images/image.png" alt="image">
+    <div class="container">
+      <div class="main-wrapper">
+        <div class="main-info">
+          <h1 class="main-title">Markup achievement</h1>
+          <p class="text">The harder you work for something,the greater you feel when you achive it.</p>
+          <button class="button">Learn More</button>
+        </div>
+        <img class="main-img" src="./assets/images/image.png" alt="image">
+      </div>
+    </div>
   </section>
   <section class="rates-section">
-    <h2 class="title">Rates</h2>
-    <p class="text">Failure will never overtake me if my determination to succed is strong enough</p>
-    <table class="table">
-      <tr>
-        <th class="table-subtitle gray">Feature</th>
-        <th class="table-title">Standart</th>
-        <th class="table-title">Plus</th>
-        <th class="table-title">PRO</th>
-      </tr>
-      <tr>
-        <th class="table-subtitle">Theory</th>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-      </tr>
-      <tr>
-        <th class="table-subtitle">Practice</th>
-        <td><img src="/assets/images/Close.svg" alt=""></td>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-      </tr>
-      <tr>
-        <th class="table-subtitle">Code review</th>
-        <td><img src="/assets/images/Close.svg" alt=""></td>
-        <td><img src="/assets/images/Close.svg" alt=""></td>
-        <td><img src="/assets/images/Check.svg" alt=""></td>
-      </tr>
-      <tr class="table-footer">
-        <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
-        <td><button class="table-button">get now</button></td>
-        <td><button class="table-button active">get now</button></td>
-        <td><button class="table-button">get now</button></td>
-      </tr>
-    </table>
+    <div class="container">
+      <div class="rates-wrapper">
+        <h2 class="title">Rates</h2>
+        <p class="text">Failure will never overtake me if my determination to succed is strong enough</p>
+        <table class="table">
+
+          <tr>
+            <th class="table-subtitle gray">Feature</th>
+            <th class="table-title">Standart</th>
+            <th class="table-title">Plus</th>
+            <th class="table-title">PRO</th>
+          </tr>
+          <tr>
+            <th class="table-subtitle">Theory</th>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+          </tr>
+          <tr>
+            <th class="table-subtitle">Practice</th>
+            <td><img src="/assets/images/Close.svg" alt=""></td>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+          </tr>
+          <tr>
+            <th class="table-subtitle">Code review</th>
+            <td><img src="/assets/images/Close.svg" alt=""></td>
+            <td><img src="/assets/images/Close.svg" alt=""></td>
+            <td><img src="/assets/images/Check.svg" alt=""></td>
+          </tr>
+          <tr class="table-footer">
+            <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+            <td><button class="table-button">get now</button></td>
+            <td><button class="table-button active">get now</button></td>
+            <td><button class="table-button">get now</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </section>
   <section class="create-account-section">
-    <h2 class="title">Create your free account</h2>
-    <p class="text">Let us first talk about dreams.We all know that dreams do play a role in our daily lives.</p>
-    <ul class="list">
-      <li class="list-item">Easy setup,fast stark</li>
-      <li class="list-item">Free forever for core features</li>
-      <li class="list-item">14-day trial of premium </li>
-    </ul>
-    <form action="mailto ">
-      <input type="text" placeholder="Full name">
-      <input type="email" placeholder="Email">
-      <input type="password" placeholder="password">
-      <input type="date">
-    </form>
-    <select>
-      <option selected disabled>
-        Country</option>
-      <option>Belarus</option>
-      <option>China</option>
-      <option>USA</option>
-    </select>
-    <div>
-      <label for="front">
-        <input id="front" type="radio" name="stack">
-        Fontend
-      </label>
-      <label for="back">
-        <input id="back" type="radio" name="stack" checked>
-        Backend
-      </label>
+    <div class="container">
+      <div class="account-wrapper">
+        <div class="account-info-wrapper">
+          <h2 class="title">Create your free account</h2>
+          <p class="text">Let us first talk about dreams.We all know that dreams do play a role in our daily lives.</p>
+          <ul class="list">
+            <li class="list-item">Easy setup,fast stark</li>
+            <li class="list-item">Free forever for core features</li>
+            <li class="list-item">14-day trial of premium </li>
+          </ul>
+        </div>
+        <div class="account-info-wrapper">
+          <form action="mailto ">
+            <input type="text" placeholder="Full name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="password">
+            <input type="date">
+          </form>
+
+          <select>
+            <option selected disabled>
+              Country</option>
+            <option>Belarus</option>
+            <option>China</option>
+            <option>USA</option>
+          </select>
+          <div>
+            <label for="front">
+              <input id="front" type="radio" name="stack">
+              Frontend
+            </label>
+            <label for="back">
+              <input id="back" type="radio" name="stack" checked>
+              Backend
+            </label>
+          </div>
+          <fieldset>
+            <legend>Favorite Technologies</legend>
+            <label for="html">
+              <input id="html" type="checkbox" name="html">checked
+              HTML
+            </label>
+            <label for="css">
+              <input id="css" type="checkbox" name="css">checked
+              CSS
+            </label>
+            <label for="react">
+              <input id="react" type="checkbox" name="react">
+              React
+            </label>
+            <label for="sc">
+              <input id="sc" type="checkbox" name="sc">
+              Styled components
+            </label>
+          </fieldset>
+          <textarea placeholder="something else about You..."></textarea>
+          <input type="submit">
+        </div>
+      </div>
     </div>
-    <fieldset>
-      <legend>Favorite Technologies</legend>
-      <label for="html">
-        <input id="html" type="checkbox" name="html">checked
-        HTML
-      </label>
-      <label for="css">
-        <input id="css" type="checkbox" name="css">checked
-        CSS
-      </label>
-      <label for="react">
-        <input id="react" type="checkbox" name="react">
-        React
-      </label>
-      <label for="sc">
-        <input id="sc" type="checkbox" name="sc">
-        Styled components
-      </label>
-    </fieldset>
-    <textarea placeholder="something else about You..."></textarea>
-    <input type="submit">
+
   </section>
   <footer>
     <small> Copyright 2023.All right reserved. </small>
